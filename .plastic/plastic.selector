@@ -1,0 +1,4 @@
+repository "WPG 3 Game@wichdanbawariq@cloud"
+  path "/"
+    br "/main"
+    co "/main"

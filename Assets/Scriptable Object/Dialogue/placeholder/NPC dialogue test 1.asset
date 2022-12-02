@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd9b29d575fe4424290009b0a8f3b6d7, type: 3}
+  m_Name: NPC dialogue test 1
+  m_EditorClassIdentifier: 
+  conversation:
+  - charName: Girl 1
+    leftPortrait: {fileID: 21300000, guid: 573196d477a2da249bf80507538c2b43, type: 3}
+    rightPortrait: {fileID: 0}
+    sentence: 'Saya adalah NPC #0...
+
+      Fungsi saya adalah untuk <color=blue>mengecek</color>
+      sistem dialog'
+    isNarrator: 0
+  - charName: Girl 1 & Girl 2
+    leftPortrait: {fileID: 21300000, guid: d968cf43b94eb51449e9d21d87f0fa6e, type: 3}
+    rightPortrait: {fileID: 21300000, guid: dc160060e8c88644a9c9edb512c86650, type: 3}
+    sentence: <color=blue>Cek dialog</color>...
+    isNarrator: 0
+  - charName: Girl 2
+    leftPortrait: {fileID: 0}
+    rightPortrait: {fileID: 21300000, guid: 74cfe773ed9a33346b7228952f5d92aa, type: 3}
+    sentence: '<color=red>1...
+
+      <color=green>2...
+
+      <color=blue>3...'
+    isNarrator: 0
+  - charName: Narrator
+    leftPortrait: {fileID: 0}
+    rightPortrait: {fileID: 0}
+    sentence: OKE...>
+    isNarrator: 1
